@@ -17,6 +17,9 @@ ul {
 
 body {
   background: #f1f1f3;
+  font-family: 'Fira Sans', serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 /* nav styles */
@@ -57,11 +60,17 @@ nav button {
 }
 
 .hero-btn {
-  padding: 10px 15px;
+  padding: 15px 25px;
   background-color: #006a50;
   border-radius: 5px;
   color: white;
   border: none;
+  font-size: 18;
+  font-weight: 400;
+}
+.hero-btn:hover {
+  background-color: #09a15c;
+  font-size: larger;
 }
 
 /* vision styles */
@@ -100,11 +109,27 @@ nav button {
 .first-btn {
   background-color: #5490f5;
 }
+.first-btn:hover {
+  background-color: #0d53cd;
+  cursor: pointer;
+}
+
 .sec-btn {
   background-color: #09a15c;
 }
+
+.sec-btn:hover {
+  background-color: #07693d;
+  cursor: pointer;
+}
+
 .third-btn {
   background-color: #ffc239;
+  cursor: pointer;
+}
+.third-btn:hover {
+  background-color: #b88306;
+  cursor: pointer;
 }
 /* news styles */
 
@@ -172,11 +197,16 @@ form {
 }
 
 .amount-btn {
-  padding: 25px 30px;
+  padding: 20px 30px;
   border-radius: 15px;
   border: 1px solid rgb(170, 163, 163);
   margin-bottom: 25px;
   justify-content: center;
+}
+.amount-btn:nth-child(2):hover {
+  cursor: pointer;
+  background-color: #006a50;
+  color: #fff;
 }
 .amount-input {
   justify-content: center;
@@ -189,6 +219,9 @@ form {
 }
 .donate-btn {
   text-align: center;
+}
+.donate-btn:hover {
+  background-color: ;
 }
 /* .donate-btn:hover{
   background: #c6e4d6;
@@ -231,6 +264,10 @@ form {
   border-radius: 5px;
   border: none;
 }
+.newsletter #input-btn:hover {
+  background-color: #09a15c;
+  color: #fff;
+}
 
 .younus {
   background: #fff;
@@ -256,12 +293,6 @@ form {
   padding: 15px 25px;
 }
 
-.btn {
-  padding: 15px 25px;
-  color: white;
-  border-radius: 5px;
-  border: none;
-}
 
 /* Dark Green */
 .primary-color-green {
@@ -275,11 +306,22 @@ form {
 }
 
 /* Text size */
-.text-2xl {
+.text-color {
+  color: rgba(14, 14, 14, 0.7);
 }
-.text-xl {
+.text-color-head {
+  color: rgba(14, 14, 14, 0.8);
 }
-.text-medium {
+
+.btn {
+  padding: 15px 25px;
+  color: white;
+  border-radius: 5px;
+  border: none;
 }
-.text-2xl {
+.btn:hover {
+  cursor: pointer;
+  color: white;
+  background-color: #09a15c;
+  
 }
