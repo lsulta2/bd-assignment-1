@@ -68,6 +68,11 @@ nav button {
 
 .vision {
   height: 380px;
+  margin-bottom: 100px;
+  text-align: left;
+}
+.vision p {
+  text-align: left;
 }
 
 .vision-cards {
@@ -108,7 +113,12 @@ nav button {
   margin-top: 80px;
 }
 
-.card1, .card2 {
+.news p {
+  text-align: left;
+}
+
+.card1,
+.card2 {
   background: #fff;
   display: flex;
   gap: 20px;
@@ -116,7 +126,7 @@ nav button {
   border-radius: 15px;
 }
 
-.card2{
+.card2 {
   margin-top: 25px;
 }
 
@@ -137,19 +147,106 @@ h2 {
   margin-bottom: 16px;
 }
 
-
 /* donate section */
 
-.donate{
-  height: 480px;
-  border: 1px solid gray;
+.donate {
+  height: 450px;
   margin-top: 70px;
-  padding: 0px 60px;
-
+  padding: 15px 70px;
+}
+.donate h1,
+p,
+form {
+  text-align: center;
+  margin-bottom: 25px;
 }
 
+.donate h1 {
+  font-weight: bold;
+  font-size: 40px;
+}
 
+.amount {
+  display: flex;
+  justify-content: space-between;
+}
 
+.amount-btn {
+  padding: 25px 30px;
+  border-radius: 15px;
+  border: 1px solid rgb(170, 163, 163);
+  margin-bottom: 25px;
+  justify-content: center;
+}
+.amount-input {
+  justify-content: center;
+}
+.amount-input input {
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  border: none;
+}
+.donate-btn {
+  text-align: center;
+}
+/* .donate-btn:hover{
+  background: #c6e4d6;
+} */
+
+/* newsletter section */
+.newsletter {
+  height: 200px;
+  border: 1px solid rgb(162, 159, 159);
+  border-radius: 15px;
+  background-color: #c6e4d6;
+  padding: 80px 100px;
+}
+.newsletter h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.newsletter-input {
+  justify-content: center;
+}
+.newsletter #mail {
+  width: 600px;
+  height: 54px;
+  padding-left: 20px;
+  margin-right: 0px;
+  border-radius: 5px;
+  border: none;
+}
+.newsletter #input-btn {
+  width: 150px;
+  height: 55px;
+  background-color: #006a50;
+  color: white;
+  margin-left: 0px;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 5px;
+  border: none;
+}
+
+.younus {
+  background: #fff;
+  border-radius: 10px;
+}
+.younus-content {
+  background-image: url('/assets/quote-bg.png');
+  background-position: 2% 10%;
+  background-repeat: no-repeat; /* Do not repeat the image */
+  padding: 48px 24px;
+  background-size: 64px;
+}
+
+.younus-content p {
+  text-align: start;
+}
 /* //////////////////////////// */
 
 /* Utilizes */
@@ -178,15 +275,11 @@ h2 {
 }
 
 /* Text size */
-.text-2xl{
-  
+.text-2xl {
 }
-.text-xl{
-  
+.text-xl {
 }
-.text-medium,{
-  
+.text-medium {
 }
-.text-2xl{
-  
+.text-2xl {
 }
