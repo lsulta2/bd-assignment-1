@@ -11,22 +11,30 @@
   padding: 0;
 }
 
+ul {
+  text-decoration: none;
+}
+
+body {
+  background: #f1f1f3;
+}
+
+/* nav styles */
 .nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* padding: 10px 15px; */
 }
 
 nav button {
   color: #006a50;
   font-weight: 600;
-  padding: 5px 10px;]
-  border-radius: 10px;
-  border: 2px solid #006A50;
-
+  padding: 5px 10px;
+  ]border-radius: 10px;
+  border: 2px solid #006a50;
 }
 
+/* hero styles */
 .hero {
   height: 460px;
   display: flex;
@@ -48,16 +56,17 @@ nav button {
   width: 460px;
 }
 
-.hero-btn{
+.hero-btn {
   padding: 10px 15px;
-  background-color: #006A50;
+  background-color: #006a50;
   border-radius: 5px;
   color: white;
   border: none;
 }
 
-.vision {
+/* vision styles */
 
+.vision {
   height: 380px;
 }
 
@@ -92,10 +101,58 @@ nav button {
 .third-btn {
   background-color: #ffc239;
 }
+/* news styles */
+
+.news {
+  height: 920px;
+  margin-top: 80px;
+}
+
+.card1, .card2 {
+  background: #fff;
+  display: flex;
+  gap: 20px;
+  padding: 38px;
+  border-radius: 15px;
+}
+
+.card2{
+  margin-top: 25px;
+}
+
+.card-image img {
+  border-radius: 25px;
+}
+
+.satellite button {
+  margin-top: 32px;
+}
+
+.satellite h2 {
+  font-size: 2.3rem;
+}
+.satellite img,
+p,
+h2 {
+  margin-bottom: 16px;
+}
+
+
+/* donate section */
+
+.donate{
+  height: 480px;
+  border: 1px solid gray;
+  margin-top: 70px;
+  padding: 0px 60px;
+
+}
+
+
 
 /* //////////////////////////// */
 
-/* Utilies */
+/* Utilizes */
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -103,8 +160,33 @@ nav button {
 }
 
 .btn {
-  padding: 10px 15px;
+  padding: 15px 25px;
   color: white;
   border-radius: 5px;
   border: none;
+}
+
+/* Dark Green */
+.primary-color-green {
+  background: #006a50;
+}
+.primary-color-lightgreen {
+  background: #c6e4d6;
+}
+.secondary-lightBlue {
+  background: #5490f5;
+}
+
+/* Text size */
+.text-2xl{
+  
+}
+.text-xl{
+  
+}
+.text-medium,{
+  
+}
+.text-2xl{
+  
 }
