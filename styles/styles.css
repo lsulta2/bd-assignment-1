@@ -237,7 +237,7 @@ form {
   border-radius: 10px;
 }
 .younus-content {
-  background-image: url('./assets/quote-bg.png');
+  background-image: url('../assets/quote-bg.png');
   background-position: 2% 10%;
   background-repeat: no-repeat; /* Do not repeat the image */
   padding: 48px 24px;
